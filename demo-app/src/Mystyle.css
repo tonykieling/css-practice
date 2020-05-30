@@ -1,16 +1,14 @@
 div {
   color: blue;
+  border: red solid 5px;
 }
 
 .info {
   color: green;
-  font-weight: bolder;
 }
 
 #message {
   color: red;
-  font-variant-caps: all-petite-caps;
-  font-size: x-large;
 }
 
 div.info {
@@ -18,4 +16,10 @@ div.info {
   font-style: oblique;
   font-weight: bolder;
   font-size: 50px;
+}
+
+div#message {
+  color: red;
+  font-variant-caps: all-petite-caps;
+  font-size: x-large;
 }
