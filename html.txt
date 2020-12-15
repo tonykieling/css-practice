@@ -1,0 +1,40 @@
+# HTML general structure:
+<!doctype HTML>
+<html lang="en-US" dir="ltr">
+  <head>
+    ...
+  </head>
+  <body>
+    ...
+  </body>
+</html>
+
+- doctype is a declaration of the html, it is not an HTML tag. It is an "information" to the browser about what document type to expect.
+- head is all the metadata info that the browser needs to know, though it will not be displayed on the page. Examples are, scripts, styling
+- body is all the content to be displayed on the page.
+
+
+# HTML Attributes 
+Global attributes are attributes that can be used with all HTML elements. Examples are: class, id, lang, style, data, and so on.
+Some attributes are specific for particular HTML elements.
+
+- HTML Event Attributes
+HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.
+Examples are: Window, Form, Keyboard, Mouse, Drag, Clipboard, Media and Misc Events.
+Window has onload, onresize, onafterprint, and so on.
+Form has onblur, onchange, onfocus, onsubmit, and so on.
+
+- HTML Elements by Category
+  - Basic HTML, such as: html, head, body, title, h1 to h6, p, br, <!-- (comment), and so on
+  - Formating HTML, examples are: b, strong, em, i, pre, code, blockquote, code, and so on.
+  - Forms and Input, examples: form, inpiut, textarea, button, select, option, label, etc.
+  - Frames, only iframe for HTML5
+  - Images, img, map, area, svg, etc.
+  - Audio/Video,
+  - Links, a, link, nav.
+  - Lists, ul, ol, li, dl, dt, dd.
+  - Tables, table, th, tr, td, col, etc.
+  - Styles and Semantics, style, div, span, header, footer, main, section, etc.
+  - Metainfo, head, meta, and base.
+  - Programming, script, noscript, embed, object, and param.
+
